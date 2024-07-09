@@ -1,5 +1,7 @@
 import Config
 
+# Load env variables from .env files
+
 # Configure your database
 config :hello, Hello.Repo,
   username: "postgres",
